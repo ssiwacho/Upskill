@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://upskillreskill.netlify.app/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Forty"
 theme = "forty"
