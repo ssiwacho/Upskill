@@ -1,10 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
-@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300;400;600&family=K2D:wght@200;400&family=Krub:wght@300&family=Sarabun:wght@400;500&family=Trirong:wght@300&display=swap');
-
-
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -14,8 +10,6 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-    font-family: 'Trirong', serif;
-
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1641,7 +1635,7 @@
 
 	body, input, select, textarea {
 		color: #ffffff;
-    font-family: 'Trirong', serif;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -1652,7 +1646,6 @@
 
 			body, input, select, textarea {
 				font-size: 14pt;
-
 			}
 
 		}
@@ -1695,7 +1688,6 @@
 	strong, b {
 		color: #ffffff;
 		font-weight: 600;
-
 	}
 
 	em, i {
@@ -1708,10 +1700,9 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 500;
+		font-weight: 600;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
-    font-family: 'Sarabun', sans-serif;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1763,15 +1754,12 @@
 		font-size: 0.8em;
 		position: relative;
 		top: 0.5em;
-    font-family: 'Trirong', serif;
 	}
 
 	sup {
 		font-size: 0.8em;
 		position: relative;
 		top: -0.5em;
-    font-family: 'Trirong', serif;
-
 	}
 
 	blockquote {
@@ -3165,8 +3153,6 @@
 		top: 0;
 		width: 100%;
 		z-index: 10000;
-    font-family: 'Trirong', serif;
-
 	}
 
 		#header .logo {
@@ -3437,8 +3423,6 @@
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
-		font-family: 'Athiti', sans-serif;
-
 	}
 
 		#banner:after {
@@ -3464,14 +3448,10 @@
 			top: 0;
 			width: 100%;
 			z-index: 1;
-			font-family: 'Athiti', sans-serif;
-
 		}
 
 		#banner h1 {
 			font-size: 3.25em;
-			font-family: 'Athiti', sans-serif;
-
 		}
 
 		#banner > .inner {
@@ -3482,8 +3462,6 @@
 			padding: 0 !important;
 			position: relative;
 			z-index: 2;
-			font-family: 'Athiti', sans-serif;
-
 		}
 
 			#banner > .inner .image {
@@ -3528,8 +3506,6 @@
 					font-weight: 600;
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
-					font-family: 'Athiti', sans-serif;
-
 				}
 
 		#banner.major {
@@ -3603,7 +3579,6 @@
 
 				#banner h1 {
 					font-size: 2em;
-					font-family: 'Athiti', sans-serif;
 				}
 
 				#banner > .inner .content {
@@ -3764,8 +3739,6 @@
 		font-size: 0.8em;
 		list-style: none;
 		padding-left: 0;
-    font-family: 'Trirong', serif;
-
 	}
 
 		#footer .copyright li {
@@ -3920,8 +3893,6 @@
 						line-height: 4em;
 						text-decoration: none;
 						text-transform: uppercase;
-            font-family: 'Trirong', serif;
-
 					}
 
 					#menu ul.links > li > .button {
